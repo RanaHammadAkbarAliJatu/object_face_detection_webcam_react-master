@@ -6,6 +6,7 @@ import * as faceapi from 'face-api.js';
 const MODEL_URL = '/models'
 
 export default function sketch (p) {
+    console.log(p,"sketch")
 
     let capture = null;
     let cocossdModel = null;
